@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="images/profile.jpg" alt="Profile Photo">
+            <h1>Jacob Duba</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown">CS Student</p>
+            <p>
+                I am a lazy programmer... I write plain code because I won't understand it in six months otherwise. Then
+                I automate testing so I don't have to manually regression test the code every release. Finally since I
+                don't want to memorize a complex deployment I automate the deployment.I am a lazy programmer... I write
+                plain code because I won't understand it in six months otherwise. Then I automate testing so I don't
+                have to manually regression test the code every release. Finally since I don't want to memorize a
+                complex deployment I automate the deployment.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Personal website</h3>
+                <p>The first project is related to develop a single Web page using
+                    only two technologies: HTML and CSS. The project consists on
+                    creating a single web page with a menu at the top know as
+                    Navitation Bar. We have to include text describing ourself and
+                    text describing the project. Additionally, we need to include
+                    two images: one image is of ourself and second image is anything
+                    related to the project itself.</p>
+            </div>
+            <div class="project">
+                <h3>OSS Contributions</h3>
+                <p>I have contributed to several open source projects in the past year. I added a new keyboard shortcut
+                    to the GNOME Terminal emulator to zoom in and out of the terminal window using the Ctrl + Scroll
+                    wheel keys. I improved the performance of the AWS Lambda Builders by preventing them from cloning
+                    the TypeScript source code to a scratch directory before compiling it. I fixed a regression in the
+                    Miniflux RSS reader that caused it to reset the touch-item state of unread articles even if the user
+                    was not viewing the unread articles list. I also prevented the Miniflux RSS reader from resetting
+                    the touch-item state of articles that have been successfully swiped away.</p>
+            </div>
+            <div class="project">
+                <h3>Web forum software</h3>
+                <p>SKFS is a web 2.0 application where users can sign up and sign in to create, like, and comment on
+                    posts. It is designed with a robust client-server REST API, using Express.js and SQLite on the back
+                    end and React on the front end. SKFS allows users to connect with each other and share their
+                    thoughts and ideas through posts. Users
+                    can also like and comment on posts to interact with other users and share their thoughts. SKFS is a
+                    powerful and versatile platform that can be used for a variety of purposes, such as social
+                    networking, education, and community building.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at jduba@iastate.edu</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Jacob Duba</p>
+    </footer>
+
+</body>
+
+</html>
